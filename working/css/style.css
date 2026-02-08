@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+  }
+  
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.image img {
+  max-width: 8vw;  
+  padding: 5px;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/e3/95/f3/e395f3b6410594fdfb9ec7358472908d.gif"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:7vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav{
+  display: flex;
+}
+
+nav ul{
+  height: 7vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li{
+  padding: 0 2vh;
+  list-style-type: none;
+}
+nav ul li a:hover{
+  color: rgb(202, 67, 108);
+  font-weight:  bolder;
+}
+nav ul li a{
+  color: rgb(231, 104, 142);
+  text-decoration: none;
+  font-family: "Bitcount Single", system-ui;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider{
+  margin: 15px auto;
+  border: 5px salmon;
+  overflow: hidden;
+}
+
+.text-center, .text-center1, .my-2{
+  font-family: "Bitcount Single", system-ui;
+  color: rgb(170, 72, 89);
+  padding: 0px 5px;
+
+}
+
+.my-1{
+  margin: 4px;
+}
+
+.text-center1:hover{
+  font-weight: bolder;
+  cursor: pointer;
+}
+.card{
+  background-color: rgb(219, 188, 194);
+  border-radius: 1%;
+  max-width: 96vw;
+  margin: 50px;
+  overflow: hidden;
+}
+
+
+.search input{
+  width: 40vw;
+  height: 4vh;
+  margin: 0 2vw 0 56px;
+  padding: 0 3vh;
+}
+
+.card-items{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 90px;
+}
+
+main {
+  flex: 1;                                                 
+   
+}
+.text-center{
+  text-align: center;
+}
+
+footer{
+  flex-shrink: 0; 
+  height: 7vh;
+  background-color: rgb(228, 129, 146);
+  font-family: "Bitcount Single", system-ui;  
+}
+

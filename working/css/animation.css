@@ -1,0 +1,41 @@
+.slider {
+    width: 80%;
+    height: 52vh; /* Adjust this height to match your images, stop using random numbers */
+    overflow: hidden; /* CRITICAL: This cuts off anything that flies outside the box */
+    border: 3px solid #f3eff0; /* Your aesthetic border */
+    border-radius: 20px; /* Soft edges for the vibe */
+    position: relative; /* Keeps images inside relative to this box */
+}
+
+.slide-1{
+  transform: translate(-1700px);
+  animation: dd 6s forwards 8s infinite;
+    
+}
+
+.slide-2{
+  transform: translate(-300);
+  animation: dd1 6s forwards infinite ;
+}
+@keyframes dd{
+  0%{
+    transform: translate(-1700px);
+  }
+  50%{
+    transform: translate(375px);
+  }
+  100%{
+    transform: translate(2100px);
+  }
+}
+@keyframes dd1{
+  0%{
+    transform: translate(-1700px);
+  }
+  50%{
+    transform: translate(-300px);
+  }
+  100%{
+    transform: translate(1900px);
+  }
+}

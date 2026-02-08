@@ -1,0 +1,22 @@
+@media (max-width: 622px) {
+    .image{
+        padding-top: 2vh;
+    }
+    nav ul li{
+        padding: 1vw;
+    }
+    .search{
+        padding-right: 2vh;
+    }
+    .card-items{
+        margin: 118px;
+    }
+    .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider img{
+        max-width: 650px;
+    }
+}
