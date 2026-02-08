@@ -70,3 +70,6 @@ Pinkcart/
 │   ├── animation.css   # Keyframe animations (slider logic)
 │   └── utils.css       # Reusable utility classes (fonts, buttons, centering)
 └── img/                # Product images & assets
+
+
+###Built with ❤️ by Taniya ;)
