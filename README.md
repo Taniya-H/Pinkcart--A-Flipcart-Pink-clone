@@ -56,7 +56,7 @@ Instead of a heavy JavaScript carousel plugin, **Pinkcart** uses a lightweight C
 2. The **banner image** moves horizontally using `animation` and `transform: translateX()`.
 3. The animation is set to `infinite`, creating a continuous, smooth sliding effect 
    that loops automatically.
-
+###Built with ❤️ by Taniya ;)
 ---
 
 ## 📂 Project Structure
@@ -70,6 +70,5 @@ Pinkcart/
 │   ├── animation.css   # Keyframe animations (slider logic)
 │   └── utils.css       # Reusable utility classes (fonts, buttons, centering)
 └── img/                # Product images & assets
-'''
 
-###Built with ❤️ by Taniya ;)
+
